@@ -14,20 +14,16 @@ namespace ConsoleApp1
             Console.WriteLine("Введите большее основание  x:");
             x = double.Parse(Console.ReadLine());
 
-
-
             double y;
             Console.WriteLine("Введите меньшее основание  y:");
             y = double.Parse(Console.ReadLine());
-
 
             double z;
             Console.WriteLine("Введите высоту z:");
             z = double.Parse(Console.ReadLine());
 
-
             double s;
-            s = ((z / 2) + (x + y));
+            s = ((x + y) / 2) + z;
 
             s = Math.Round(s, 3);
 
@@ -43,21 +39,12 @@ namespace ConsoleApp1
 
             q = Math.Round(q, 3);
 
-
             double p;
             p = x + y + q + q;
 
             p = Math.Round(p, 3);
 
             Console.WriteLine("P = " + p);
-
-
-
-
-
-
-
-
 
             Console.ReadKey();
 
