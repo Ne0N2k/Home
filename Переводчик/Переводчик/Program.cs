@@ -52,6 +52,40 @@ namespace Переводчик
             str = str.Replace("Ю", "IO");
             str = str.Replace("Я", "9I");
 
+            str = str.Replace("а", "4");
+            str = str.Replace("б", "8");
+            str = str.Replace("в", "(");
+            str = str.Replace("г", "r");
+            str = str.Replace("д", "D");
+            str = str.Replace("е", "E");
+            str = str.Replace("ё", "E");
+            str = str.Replace("ж", "}|{");
+            str = str.Replace("з", "3");
+            str = str.Replace("и", "u");
+            str = str.Replace("й", "u*");
+            str = str.Replace("к", "K");
+            str = str.Replace("л", "JI");
+            str = str.Replace("м", "M");
+            str = str.Replace("н", "H");
+            str = str.Replace("о", "O");
+            str = str.Replace("п", "n");
+            str = str.Replace("р", "P");
+            str = str.Replace("с", "C");
+            str = str.Replace("т", "T");
+            str = str.Replace("у", "Y");
+            str = str.Replace("ф", "cp");
+            str = str.Replace("х", "X");
+            str = str.Replace("ц", "L|");
+            str = str.Replace("ч", "4");
+            str = str.Replace("ш", "LLI");
+            str = str.Replace("щ", "LLL");
+            str = str.Replace("ъ", "`b");
+            str = str.Replace("ы", "bI");
+            str = str.Replace("ь", "b");
+            str = str.Replace("э", "-)");
+            str = str.Replace("ю", "IO");
+            str = str.Replace("я", "9I");
+
             return str;
         }
 
