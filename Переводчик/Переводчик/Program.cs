@@ -10,16 +10,17 @@ namespace Переводчик
             Console.WriteLine("Введите текст: ");
             string lineRus = Console.ReadLine();
 
-            string lineEng = alphabetCS(lineRus);
-            Console.WriteLine(lineEng);
+            string lineCS = alphabetCS(lineRus);
+      
+            Console.WriteLine("Новый текст: "+ lineCS);
 
             Console.ReadKey();
         }
         static string alphabetCS(string str)
         {
-            str = str.Replace("А", "A");
-            str = str.Replace("Б", "6");
-            str = str.Replace("В", "B");
+            str = str.Replace("А", "4");
+            str = str.Replace("Б", "8");
+            str = str.Replace("В", "(");
             str = str.Replace("Г", "r");
             str = str.Replace("Д", "D");
             str = str.Replace("Е", "E");
