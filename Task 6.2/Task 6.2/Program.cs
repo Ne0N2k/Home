@@ -19,9 +19,7 @@ namespace Task_6._2
 
         static bool PointInArea(double x, double y)
         {
-            return  -2 <= y && y <= 1.5; 
-                   
-              
+            return  -2 <= y && y <= 1.5;          
         }
 
     }
