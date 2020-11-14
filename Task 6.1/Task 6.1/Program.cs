@@ -33,9 +33,9 @@ namespace Task_6._1
             return m > 20 && n < 20;
         }
 
-        static int GetNumber(string numberName)
+        static int GetNumber(string number)
         {
-            Console.WriteLine("Введите число " + numberName);
+            Console.WriteLine("Введите число " + number);
             return int.Parse(Console.ReadLine());
         }
     }
