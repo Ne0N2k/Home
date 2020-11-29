@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional operator", "Conditional operator\Conditional operator.csproj", "{61A4EE14-BBEB-4AF0-92CA-BB0DE2EDDDD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61A4EE14-BBEB-4AF0-92CA-BB0DE2EDDDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A4EE14-BBEB-4AF0-92CA-BB0DE2EDDDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A4EE14-BBEB-4AF0-92CA-BB0DE2EDDDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A4EE14-BBEB-4AF0-92CA-BB0DE2EDDDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2CD55CC-928D-4DF3-A422-54A8C7E7E827}
+	EndGlobalSection
+EndGlobal
